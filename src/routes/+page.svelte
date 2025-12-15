@@ -196,12 +196,9 @@
 <main id="main-content" class="w-full flex-1 flex flex-col">
 	<section
 		id="about"
-		class="mx-auto max-w-6xl items-center gap-10 px-5 py-14 md:grid md:grid-cols-[auto,1fr] md:px-8 md:py-20 md:[grid-template-columns:1fr_auto]"
+		class="mx-auto max-w-6xl items-center gap-10 px-5 py-14 md:grid md:grid-cols-[1fr_auto] md:px-8 md:py-20"
 	>
-		<div class="mx-auto w-56 overflow-hidden rounded shadow-lg md:mx-0 md:w-64 mt-16 md:order-2">
-			<img src={about} alt="Illustration of Web3 development" class="h-full w-full object-cover" loading="lazy" />
-		</div>
-		<div class="space-y-4 md:order-1">
+		<div class="space-y-4 md:order-2">
 			<h2 class="font-heading text-2xl font-semibold text-gray-900">About Us</h2>
 			<p class="text-sm leading-relaxed text-gray-800 md:text-base">Your partner for navigating the crypto frontier</p>
 			<p class="text-sm leading-relaxed text-gray-700 md:text-base">
@@ -215,6 +212,9 @@
 			<a href="#contact" class="inline-flex items-center justify-center bg-primary px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-sky-500"
 				>Read More</a
 			>
+		</div>
+		<div class="mx-auto w-56 overflow-hidden rounded shadow-lg md:mx-0 md:w-64 mt-16 md:order-1">
+			<img src={about} alt="Illustration of Web3 development" class="h-full w-full object-cover" loading="lazy" />
 		</div>
 	</section>
 
