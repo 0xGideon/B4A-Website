@@ -67,7 +67,33 @@
 	<meta property="og:image" content="https://b4a.com/images/banner.svg" />
 	<meta property="og:url" content="https://b4a.com/" />
 	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Web3: The B4A Synergy" />
+	<meta
+		name="twitter:description"
+		content="Blueprints for success in the Web3 frontier from the team at B4A."
+	/>
+	<meta name="twitter:image" content="https://b4a.com/images/banner.svg" />
+	<meta name="theme-color" content="#00aeef" />
+	<meta name="format-detection" content="telephone=yes" />
 	<link rel="canonical" href="https://b4a.com/" />
+	<script type="application/ld+json">
+		{JSON.stringify({
+			'@context': 'https://schema.org',
+			'@type': 'Organization',
+			name: 'B4A',
+			url: 'https://b4a.com/',
+			logo: 'https://b4a.com/images/logo.svg',
+			contactPoint: [
+				{
+					'@type': 'ContactPoint',
+					telephone: '+2349036534493',
+					contactType: 'customer support',
+					availableLanguage: ['en']
+				}
+			],
+			sameAs: ['https://x.com', 'https://t.me']
+		})}
+	</script>
 </svelte:head>
 
 <a
@@ -81,6 +107,8 @@
 		<img
 			src={banner}
 			alt="Web3 network background"
+			width="1980"
+			height="756"
 			class="h-full w-full max-w-6xl mx-auto object-cover object-left sm:object-center"
 			loading="eager"
 			fetchpriority="high"
@@ -91,7 +119,7 @@
 		<nav class="flex items-center justify-between flex-1" aria-label="Main navigation">
 			<div class="flex flex-1 items-center gap-4 justify-between">
 				<a href="#home" class="inline-flex items-center" on:click|preventDefault={() => handleNav('home')}>
-					<img src={logo} alt="B4A logo" class="h-20 w-auto" loading="eager" />
+					<img src={logo} alt="B4A logo" width="140" height="112" class="h-20 w-auto" loading="eager" />
 				</a>
 				<button
 					id="menu-toggle"
@@ -214,7 +242,14 @@
 			>
 		</div>
 		<div class="mx-auto w-56 overflow-hidden rounded shadow-lg md:mx-0 md:w-64 mt-16 md:order-1">
-			<img src={about} alt="Illustration of Web3 development" class="h-full w-full object-cover" loading="lazy" />
+			<img
+				src={about}
+				alt="Illustration of Web3 development"
+				width="256"
+				height="256"
+				class="h-full w-full object-cover"
+				loading="lazy"
+			/>
 		</div>
 	</section>
 
@@ -287,7 +322,7 @@
 					</ul>
 				</div>
 				<div class="space-y-4 text-sm text-gray-200">
-					<img src={logo} alt="B4A logo" class="h-16 w-auto -ml-1" loading="lazy" />
+					<img src={logo} alt="B4A logo" width="140" height="112" class="h-16 w-auto -ml-1" loading="lazy" />
 					<div class="flex items-center gap-2 mt-2">
 						<svg class="h-5 w-5 text-primary" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
 							<path
