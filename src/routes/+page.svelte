@@ -1,4 +1,7 @@
 <script lang="ts">
+	import about from '$lib/assets/images/about.webp';
+	import banner from '$lib/assets/images/banner.svg';
+	import logo from '$lib/assets/images/logo.svg';
 	const navItems = [
 		{ id: 'home', label: 'Home' },
 		{ id: 'about', label: 'About Us' },
@@ -76,7 +79,7 @@
 <header id="home" class="relative isolate w-full overflow-hidden text-white">
 	<div class="absolute inset-0 bg-[#131316]">
 		<img
-			src="/images/banner.svg"
+			src={banner}
 			alt="Web3 network background"
 			class="h-full w-full max-w-6xl mx-auto object-cover object-left sm:object-center"
 			loading="eager"
@@ -88,7 +91,7 @@
 		<nav class="flex items-center justify-between flex-1" aria-label="Main navigation">
 			<div class="flex flex-1 items-center gap-4 justify-between">
 				<a href="#home" class="inline-flex items-center" on:click|preventDefault={() => handleNav('home')}>
-					<img src="/images/logo.svg" alt="B4A logo" class="h-20 w-auto" loading="eager" />
+					<img src={logo} alt="B4A logo" class="h-20 w-auto" loading="eager" />
 				</a>
 				<button
 					id="menu-toggle"
@@ -196,7 +199,7 @@
 		class="mx-auto max-w-6xl items-center gap-10 px-5 py-14 md:grid md:grid-cols-[auto,1fr] md:px-8 md:py-20 md:[grid-template-columns:1fr_auto]"
 	>
 		<div class="mx-auto w-56 overflow-hidden rounded shadow-lg md:mx-0 md:w-64 mt-16 md:order-2">
-			<img src="/images/about.webp" alt="Illustration of Web3 development" class="h-full w-full object-cover" loading="lazy" />
+			<img src={about} alt="Illustration of Web3 development" class="h-full w-full object-cover" loading="lazy" />
 		</div>
 		<div class="space-y-4 md:order-1">
 			<h2 class="font-heading text-2xl font-semibold text-gray-900">About Us</h2>
@@ -283,7 +286,7 @@
 					</ul>
 				</div>
 				<div class="space-y-4 text-sm text-gray-200">
-					<img src="/images/logo.svg" alt="B4A logo" class="h-16 w-auto -ml-1" loading="lazy" />
+					<img src={logo} alt="B4A logo" class="h-16 w-auto -ml-1" loading="lazy" />
 					<div class="flex items-center gap-2 mt-2">
 						<svg class="h-5 w-5 text-primary" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
 							<path
