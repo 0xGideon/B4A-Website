@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --color-primary: #00aeef;
+  --color-primary-light: #4dc3f7;
+  --color-secondary: #0f1114;
+  --color-accent: #1f1f1f;
+  --font-heading: 'Poppins', 'sans-serif';
+  --font-body: 'Open Sans', 'sans-serif';
+}
+
+@layer base {
+  :global(html) {
+    scroll-behavior: smooth;
+  }
+
+  :global(body) {
+    @apply font-body bg-white text-gray-900 min-h-screen flex flex-col;
+  }
+}
