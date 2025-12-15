@@ -251,6 +251,7 @@
 							required
 							class="w-full rounded border border-gray-500 bg-white/90 px-3 py-2 text-gray-900 outline-none ring-primary focus:ring"
 							placeholder="Full Name"
+							autocomplete="off"
 						/>
 					</div>
 					<div class="space-y-2">
