@@ -64,7 +64,7 @@
 		property="og:description"
 		content="Blueprints for success in the Web3 frontier from the team at B4A."
 	/>
-	<meta property="og:image" content="https://b4a.com/images/banner.svg" />
+	<meta property="og:image" content="https://b4a-blush.vercel.app/images/banner.svg" />
 	<meta property="og:url" content="https://b4a.com/" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Web3: The B4A Synergy" />
@@ -72,7 +72,7 @@
 		name="twitter:description"
 		content="Blueprints for success in the Web3 frontier from the team at B4A."
 	/>
-	<meta name="twitter:image" content="https://b4a.com/images/banner.svg" />
+	<meta name="twitter:image" content="https://b4a-blush.vercel.app/images/banner.svg" />
 	<meta name="theme-color" content="#00aeef" />
 	<meta name="format-detection" content="telephone=yes" />
 	<link rel="canonical" href="https://b4a.com/" />
