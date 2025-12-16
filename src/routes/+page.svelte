@@ -15,7 +15,7 @@
 		`B4A's business development strategies have been pivotal in expanding our Web3 project. Their market insights and strategic partnerships helped us reach new heights. We are grateful for B4A's expertise and dedication to our success.`
 	];
 
-	const mailRecipient = 'info@b4aofficial.com';
+	const mailRecipient = 'blockchain4africa.official@gmail.com';
 	const phoneNumber = '+2349036534493';
 
 	let mobileOpen = false;
