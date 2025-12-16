@@ -15,7 +15,7 @@
 		`B4A's business development strategies have been pivotal in expanding our Web3 project. Their market insights and strategic partnerships helped us reach new heights. We are grateful for B4A's expertise and dedication to our success.`
 	];
 
-	const mailRecipient = 'info@b4a.com';
+	const mailRecipient = 'info@b4aofficial.com';
 	const phoneNumber = '+2349036534493';
 
 	let mobileOpen = false;
@@ -65,7 +65,7 @@
 		content="Blueprints for success in the Web3 frontier from the team at B4A."
 	/>
 	<meta property="og:image" content="https://b4a-blush.vercel.app/images/banner.svg" />
-	<meta property="og:url" content="https://b4a.com/" />
+	<meta property="og:url" content="https://b4aofficial.com/" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Web3: The B4A Synergy" />
 	<meta
@@ -75,13 +75,13 @@
 	<meta name="twitter:image" content="https://b4a-blush.vercel.app/images/banner.svg" />
 	<meta name="theme-color" content="#00aeef" />
 	<meta name="format-detection" content="telephone=yes" />
-	<link rel="canonical" href="https://b4a.com/" />
+	<link rel="canonical" href="https://b4aofficial.com/" />
 	<script type="application/ld+json">
 		{JSON.stringify({
 			'@context': 'https://schema.org',
 			'@type': 'Organization',
 			name: 'B4A',
-			url: 'https://b4a.com/',
+			url: 'https://b4aofficial.com/',
 			logo: logo,
 			contactPoint: [
 				{
@@ -91,7 +91,7 @@
 					availableLanguage: ['en']
 				}
 			],
-			sameAs: ['https://x.com', 'https://t.me']
+			sameAs: ['https://x.com/B4A001', 'https://t.me/b4aofficialportfolio']
 		})}
 	</script>
 </svelte:head>
@@ -333,7 +333,7 @@
 						<a href={`tel:${phoneNumber}`} class="hover:text-primary">{phoneNumber}</a>
 					</div>
 					<div class="flex items-center gap-3 mt-6">
-						<a href="https://x.com" target="_blank" aria-label="Visit us on X" class="inline-flex h-8 w-8 items-center justify-center">
+						<a href="https://x.com/B4A001" target="_blank" aria-label="Visit us on X" class="inline-flex h-8 w-8 items-center justify-center">
 							<svg width="62" height="60" viewBox="0 0 62 60" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<mask id="mask0_39_141" style="mask-type: luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="62" height="60">
 									<path d="M0.281738 0H61.0999V60H0.281738V0Z" fill="white" />
@@ -346,7 +346,7 @@
 								</g>
 							</svg>
 						</a>
-						<a href="https://t.me" target="_blank" aria-label="Join us on Telegram" class="inline-flex h-8 w-8 items-center justify-center">
+						<a href="https://t.me/b4aofficialportfolio" target="_blank" aria-label="Join us on Telegram" class="inline-flex h-8 w-8 items-center justify-center">
 							<svg width="76" height="76" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path
 									d="M66.5002 15.8333L6.3335 39.5833L28.5002 42.7499M66.5002 15.8333L58.5835 63.3333L28.5002 42.7499M66.5002 15.8333L28.5002 42.7499M28.5002 42.7499V60.1666L38.7887 49.7894"
