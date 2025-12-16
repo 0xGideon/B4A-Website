@@ -1,4 +1,5 @@
 <script lang="ts">
+	import about128 from '$lib/assets/images/about-128.webp';
 	import about from '$lib/assets/images/about.webp';
 	import banner from '$lib/assets/images/banner.svg';
 	import logo from '$lib/assets/images/logo.svg';
@@ -245,6 +246,8 @@
 		<div class="mx-auto w-56 overflow-hidden rounded shadow-lg md:mx-0 md:w-64 mt-16 md:order-1">
 			<img
 				src={about}
+				srcset={`${about128} 128w, ${about} 256w`}
+				sizes="(max-width: 768px) 128px, 256px"
 				alt="Illustration of Web3 development"
 				width="256"
 				height="256"
