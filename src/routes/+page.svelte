@@ -92,7 +92,7 @@
 					availableLanguage: ['en']
 				}
 			],
-			sameAs: ['https://x.com/B4A001', 'https://t.me/b4aofficialportfolio']
+			sameAs: ['https://x.com/B4A001', 'https://t.me/+dKBdkgY5eTVkYTY1']
 		})}
 	</script>
 </svelte:head>
@@ -349,7 +349,7 @@
 								</g>
 							</svg>
 						</a>
-						<a href="https://t.me/b4aofficialportfolio" target="_blank" aria-label="Join us on Telegram" class="inline-flex h-8 w-8 items-center justify-center">
+						<a href="https://t.me/+dKBdkgY5eTVkYTY1" target="_blank" aria-label="Join us on Telegram" class="inline-flex h-8 w-8 items-center justify-center">
 							<svg width="76" height="76" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path
 									d="M66.5002 15.8333L6.3335 39.5833L28.5002 42.7499M66.5002 15.8333L58.5835 63.3333L28.5002 42.7499M66.5002 15.8333L28.5002 42.7499M28.5002 42.7499V60.1666L38.7887 49.7894"
